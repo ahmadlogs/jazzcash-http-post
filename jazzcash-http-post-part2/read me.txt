@@ -1,0 +1,33 @@
+installation instructions: JAZZCASH payment gateway:
+
+1. Extract downloaded zip file "jazzcash_payment_gateway_HTTP_POST_part_2_code.zip"
+
+2 .Rename the extracted folder to "jazzcash"
+
+3. if you are using xampp
+      copy "jazzcash" folder in C:\xampp\htdocs
+   if you are using wamp
+      then  copy "jazzcash" folder in C:\wamp\www\
+
+4. Import jazzcash_db.sql to your mysql
+
+5. Set hostname, username and password in include/config.php
+
+6. Set domain name in include/config.php - 
+   BASE_URL - 'http://yourdomain.com'; or 
+   BASE_URL - 'http://localhost/your_jazzcash_folder_name';
+
+7. Set jazzcash credentials in include/config.php
+   i.e. merchant id, password, integrity salt, return_url etc.
+
+8. open the following link in your web browser
+   http://localhost/jazzcash/
+
+9. Opss I forgot for last 9 step... ENJOY! ;)
+
+
+Need any Help?
+Follow me on
+Facebook: facebook.com/ahmadlogs 
+twitter : twitter.com/ahmadlogs
+youtube : https://www.youtube.com/channel/UCOXYfOHgu-C-UfGyDcu5sYw
